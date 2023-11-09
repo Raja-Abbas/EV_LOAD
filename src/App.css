@@ -170,16 +170,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-/* @media(min-width:1200px){
-.margin-left{
-    margin-left: 60px;
-}
-}
-@media(min-width:1700px){
-.margin-left{
-    margin-left: 100px;
-}
-} */
+
 
 .container-hero{
     bottom: 10px;
@@ -196,6 +187,9 @@ body{
         height: 150vh;
         width: 100vw;
         background-size: cover;
+    }
+    .slider{
+        flex-wrap: wrap;
     }
 }
 
