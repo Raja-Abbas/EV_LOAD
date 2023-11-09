@@ -30,11 +30,11 @@ function HeroSection() {
               charging capacity with our NEC-Compliant cloud native solution
             </p>
             <div className='flex max-lg:flex-col'>
-            <div className="lg:mx-6 inline-flex gap-[6px] px-[30px] py-[10px] bg-[#000000] text-white border-1 border-[#00000000] rounded-[50px] hover:bg-[#4BAC88] transition-all cursor-pointer max-lg:w-[100%] max-lg:mb-4">
+            <div className="lg:mx-6 inline-flex gap-[6px] px-[30px] py-[10px] bg-[#000000] text-white border-1 border-[#00000000] rounded-[50px] hover:bg-[#4BAC88] transition-all cursor-pointer max-lg:w-[100%] max-lg:mb-4  max-lg:justify-center">
             <button className="">See A Demo</button>
             <img src={Arrow} alt=''/>
             </div>
-             <div className="inline-flex gap-[6px] px-[30px] py-[10px] bg-[#4BAC88] text-white border-1 border-[#00000000] rounded-[50px] hover:bg-[#000000] transition-all cursor-pointer max-lg:w-[100%] max-lg:mb-4">
+             <div className="inline-flex gap-[6px] px-[30px] py-[10px] bg-[#4BAC88] text-white border-1 border-[#00000000] rounded-[50px] hover:bg-[#000000] transition-all cursor-pointer max-lg:w-[100%] max-lg:mb-4 max-lg:justify-center">
             <button className="">Request A free Site Analysis</button>
             <img src={Arrow} alt=''/>
             </div>
