@@ -192,6 +192,9 @@ body{
         flex-direction: column-reverse;
         gap:100px;
     }
+    .HeroSection{
+        height: 130vh;
+    }
 }
 @media(min-width:1300px){
     .container-hero{
