@@ -8,6 +8,7 @@ body,*{
 }
 .App{
     margin: 0;
+    overflow-x: hidden;
 }
 body{
     overflow-x: hidden;
@@ -17,7 +18,6 @@ body{
     width: 100vw;
     height: 70vh;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
 }
 .label {
@@ -193,11 +193,8 @@ body{
         gap:100px;
     }
     .HeroSection{
-        height: 130vh;
+        height: 100vh;
+        width: 100vw;
     }
 }
-@media(min-width:1300px){
-    .container-hero{
-        padding-bottom: 100px;
-    }
-}
+
