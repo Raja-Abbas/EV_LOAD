@@ -164,7 +164,7 @@ body{
     font-size: 14.7px;
 }
 .container{
-    width: 1400px;
+    width: 1100px;
     margin: auto;
     background: url(./images/Group\ 181.svg);
     background-position: center;
@@ -195,6 +195,7 @@ body{
     .HeroSection{
         height: 150vh;
         width: 100vw;
+        background-size: cover;
     }
 }
 
