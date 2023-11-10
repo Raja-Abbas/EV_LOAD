@@ -8,7 +8,7 @@ import SDG from "../images/SDG&E-Logo.svg"
 
 function Slider() {
   return (
-    <div className='slider flex justify-center gap-12'>
+    <div className='slider flex justify-center gap-10'>
         <img src={Aws} alt=''/>
         <img src={UtilityApi} alt=''/>
         <img src={Pacific} alt=''/>
