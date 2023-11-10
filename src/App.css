@@ -200,7 +200,7 @@ body{
     padding:31px 200px 31px 55px;
     background-position: center;
     background-size: cover;
-    border-radius: 60px;
+    border-radius: 40px;
 }
 .black-other{
     padding: 31px 55px 31px 200px;
@@ -208,8 +208,8 @@ body{
 .green{
     background: url(./images/Rectangle\ green.svg);
     background-size: cover;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     background-position: center;
 }
 
