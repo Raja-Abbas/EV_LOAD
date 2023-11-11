@@ -19,7 +19,7 @@ function Partnering() {
       </div>
       <div className="xl:max-w-[1460px] mx-auto flex justify-center sm:gap-4 lg:gap-x-4 xl:gap-x-8 flex-wrap gap-y-32 mt-16">
         <div className="flex flex-col max-w-[300px] min-w-[250px]">
-          <img src={ImageOne} alt="" className="" />
+          <img src={ImageOne} alt="" className="" loading="lazy" />
           <p className="text-[#000000] text-[24px] capitalize font-bold mt-4">
             <span className="text-[#4BAC88]">EV Charging </span>Infrastructure Developers
           </p>
@@ -28,11 +28,11 @@ function Partnering() {
         </p>
         <div className="flex gap-4 mt-4 items-center hover:gap-2 transition-all">
             <p className="text-[#4BAC88] text-[16px] font-[700] hover:underline cursor-pointer">Contact us</p>
-            <img src={ArrowGreen} alt=""/>
+            <img src={ArrowGreen} alt="" loading="lazy"/>
         </div>
         </div>
         <div className="flex flex-col max-w-[300px] min-w-[250px]">
-          <img src={ImageTwo} alt="" className="" />
+          <img src={ImageTwo} alt="" className="" loading="lazy"/>
           <p className="text-[#000000] text-[26px] capitalize font-bold mt-4">
             <span className="text-[#4BAC88]">Energy Storage</span> Developers
           </p>
@@ -41,11 +41,11 @@ function Partnering() {
         </p>
         <div className="flex gap-4 mt-4 items-center hover:gap-2 transition-all">
             <p className="text-[#4BAC88] text-[16px] font-[700] hover:underline cursor-pointer">Contact us</p>
-            <img src={ArrowGreen} alt=""/>
+            <img src={ArrowGreen} alt="" loading="lazy"/>
         </div>
         </div>
         <div className="flex flex-col max-w-[300px] min-w-[250px]">
-          <img src={ImageThree} alt="" className="" />
+          <img src={ImageThree} alt="" className="" loading="lazy"/>
           <p className="text-[#000000] text-[26px] capitalize font-bold mt-4">
             Utilities
           </p>
@@ -54,11 +54,11 @@ function Partnering() {
         </p>
         <div className="flex gap-4 mt-4 items-center hover:gap-2 transition-all">
             <p className="text-[#4BAC88] text-[16px] font-[700] hover:underline cursor-pointer">Contact us</p>
-            <img src={ArrowGreen} alt=""/>
+            <img src={ArrowGreen} alt="" loading="lazy"/>
         </div>
         </div>
         <div className="flex flex-col max-w-[300px] min-w-[250px]">
-          <img src={ImageFour} alt="" className="" />
+          <img src={ImageFour} alt="" className="" loading="lazy"/>
           <p className="text-[#000000] text-[26px] capitalize font-bold mt-4 pe-12">
             <span className="text-[#4BAC88]">Infrastructure </span>  Finance Partners
           </p>
@@ -67,11 +67,11 @@ function Partnering() {
         </p>
         <div className="flex gap-4 mt-4 items-center hover:gap-2 transition-all">
             <p className="text-[#4BAC88] text-[16px] font-[700] hover:underline cursor-pointer">Contact us</p>
-            <img src={ArrowGreen} alt=""/>
+            <img src={ArrowGreen} alt="" loading="lazy"/>
         </div>
         </div>
         <div className="flex flex-col max-w-[300px] min-w-[250px]">
-          <img src={ImageFive} alt="" className="" />
+          <img src={ImageFive} alt="" className="" loading="lazy"/>
            <p className="text-[#000000] text-[24px] capitalize font-bold mt-4">
             <span className="text-[#4BAC88]">Engineering </span>Firms
           </p>
@@ -80,11 +80,11 @@ function Partnering() {
         </p>
         <div className="flex gap-4 mt-4 items-center hover:gap-2 transition-all">
             <p className="text-[#4BAC88] text-[16px] font-[700] hover:underline cursor-pointer">Contact us</p>
-            <img src={ArrowGreen} alt=""/>
+            <img src={ArrowGreen} alt="" loading="lazy"/>
         </div>
         </div>
         <div className="flex flex-col max-w-[300px] min-w-[250px]">
-          <img src={ImageSix} alt="" className="" />
+          <img src={ImageSix} alt="" className="" loading="lazy"/>
           <p className="text-[#000000] text-[24px] capitalize font-bold mt-4">
             <span className="text-[#4BAC88]">Permitting </span>Authorities
           </p>
@@ -93,11 +93,11 @@ function Partnering() {
         </p>
         <div className="flex gap-4 mt-4 items-center hover:gap-2 transition-all">
             <p className="text-[#4BAC88] text-[16px] font-[700] hover:underline cursor-pointer">Contact us</p>
-            <img src={ArrowGreen} alt=""/>
+            <img src={ArrowGreen} alt="" loading="lazy"/>
         </div>
         </div>
         <div className="flex flex-col max-w-[300px] min-w-[250px]">
-          <img src={ImageSeven} alt="" className="" />
+          <img src={ImageSeven} alt="" className="" loading="lazy"/>
           <p className="text-[#000000] text-[24px] capitalize font-bold mt-4">
             <span className="text-[#4BAC88]">Business </span>Owners
           </p>
@@ -106,11 +106,11 @@ function Partnering() {
         </p>
         <div className="flex gap-4 mt-4 items-center hover:gap-2 transition-all">
             <p className="text-[#4BAC88] text-[16px] font-[700] hover:underline cursor-pointer">Contact us</p>
-            <img src={ArrowGreen} alt=""/>
+            <img src={ArrowGreen} alt="" loading="lazy"/>
         </div>
         </div>
         <div className="flex flex-col max-w-[300px] min-w-[250px]">
-          <img src={ImageEight} alt="" className="" />
+          <img src={ImageEight} alt="" className=""loading="lazy" />
            <p className="text-[#000000] text-[24px] capitalize font-bold mt-4">
             <span className="text-[#4BAC88]">Fleet </span>Managers
           </p>
@@ -119,7 +119,7 @@ function Partnering() {
         </p>
         <div className="flex gap-4 mt-4 items-center hover:gap-2 transition-all">
             <p className="text-[#4BAC88] text-[16px] font-[700] hover:underline cursor-pointer">Contact us</p>
-            <img src={ArrowGreen} alt=""/>
+            <img src={ArrowGreen} alt="" loading="lazy"/>
         </div>
         </div>
       </div>
