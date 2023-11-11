@@ -5,6 +5,7 @@
 body,*{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat',sans-serif;
 }
 .App{
     margin: 0;
@@ -220,5 +221,19 @@ body{
     .green-two{
         left: 0px;
     }
+    .HeroSection{
+        width: 100%;
+    }
 }
-
+@media(min-width:2000px){
+.HeroSectionComponents{
+    width: 2000px;
+    margin: auto;
+}
+.green{
+    width: 100%;
+}
+.green-two{
+    left: -1300px;
+}
+}

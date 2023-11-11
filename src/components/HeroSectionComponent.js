@@ -7,7 +7,7 @@ import LineArrow from "./LineArrow";
 
 function HeroSectionComponent() {
   return (
-    <div className="flex flex-col justify-center gap-0">
+    <div className="flex flex-col justify-center gap-0 HeroSectionComponents">
       <div className="my-10 flex">
         <div className="flex flex-row justify-center lg:mr-[250px] xl:mr-[240px] w-[100%] relative">
           <div className="flex flex-col black xl:max-w-[700px] lg:max-w-[680px] z-10">
@@ -43,10 +43,10 @@ function HeroSectionComponent() {
             <img
               src={Image}
               alt=""
-              className="absolute z-50 max-w-[360px] lg:left-[600px] top-16 xl:left-[700px] min-[1350px]:left-[750px] min-[1500px]:left-[850px] min-[1600px]:left-[1100px]"
+              className="absolute z-50 max-w-[360px] lg:left-[600px] xl:top-16 lg:top-24 xl:left-[700px] min-[1350px]:left-[750px] min-[1500px]:left-[850px] min-[1600px]:left-[1100px]"
             />
           </div>
-          <div className="green w-[65%] h-[351px] absolute right-0 z-[-1] lg:left-[800px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1300px]">
+          <div className="green w-[65%] h-[351px] absolute right-0 z-[1] lg:left-[800px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1300px]">
             <div></div>
           </div>
         </div>
@@ -54,7 +54,7 @@ function HeroSectionComponent() {
       <LineArrow />
       <div className="mt-[-60px]">
         <div className="flex justify-center w-[100%] relative">
-          <div className="green green-two w-[35%] h-[351px] absolute left-[-120px] z-[-1] right-0 rotate-180 xl:right-[150px] min-[1350px]:right-[250px] min-[1500px]:right-[350px] min-[1600px]:right-[450px]">
+          <div className="green green-two w-[35%] h-[351px] absolute left-[-120px] z-[1] right-0 rotate-180 xl:right-[150px] min-[1350px]:right-[250px] min-[1500px]:right-[350px] min-[1600px]:right-[450px]">
             <div></div>
           </div>
           <div className="flex flex-col black black-other xl:max-w-[700px] lg:max-w-[680px] z-10 lg:ml-[250px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1150px]">
