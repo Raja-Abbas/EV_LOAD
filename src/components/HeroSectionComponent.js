@@ -61,7 +61,7 @@ function HeroSectionComponent() {
             <img
               src={ImageSecond}
               alt=""
-              className="absolute z-50 max-w-[360px] lg:left-[100px] max-lg:top-[75px] lg:top-16 xl:left-[200px] min-[1350px]:left-[250px] min-[1500px]:left-[300px] min-[1600px]:left-[550px] max-lg:right-0 max-lg:left-0"
+              className="absolute z-50 max-w-[360px] lg:left-[100px] max-lg:top-[50px] max-lg:mx-auto lg:top-16 xl:left-[200px] min-[1350px]:left-[250px] min-[1500px]:left-[300px] min-[1600px]:left-[550px] max-lg:right-0 max-lg:left-0"
             />
             <p className="text-white text-[15px] font-[500] capitalize text-opacity-80">
               Benefits
