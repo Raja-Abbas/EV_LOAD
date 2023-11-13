@@ -11,8 +11,8 @@ function footer() {
 
 <div className='lg:gap-20 xl:gap-40 flex max-md:text-center max-md:flex-col max-md:gap-4 mx-auto'>
 <div className='flex xl:gap-10 lg:gap-6 max-md:justify-evenly'>
-  <p>Terms & Conditions</p>
-  <p>Privacy Policy</p>
+  <p className="hover:underline cursor-pointer">Terms & Conditions</p>
+  <p className="hover:underline cursor-pointer">Privacy Policy</p>
   </div>
   <div>
 
@@ -22,9 +22,9 @@ function footer() {
   </div>
 
 <div className="flex gap-6 max-md:justify-center">
-  <img className='cursor-pointer' src={Linkedin} alt=""/>
-  <img className='cursor-pointer' src={Twitter} alt=""/>
-  <img className='cursor-pointer' src={Instagram} alt=""/>
+  <img className='cursor-pointer hover:-mt-3 transition-all' src={Linkedin} alt=""/>
+  <img className='cursor-pointer hover:-mt-3 transition-all' src={Twitter} alt=""/>
+  <img className='cursor-pointer hover:-mt-3 transition-all' src={Instagram} alt=""/>
 </div>
 </div>
 

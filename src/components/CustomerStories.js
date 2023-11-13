@@ -6,7 +6,7 @@ import ImageThree from "../images/ImageGreenLast.svg";
 function CustomerStories() {
   return (
     <div className="max-w-[1600px] mx-auto mt-20 mb-10 bg">
-      <div className="flex max-lg:flex-col max-lg:gap-24 lg:gap-12 xl:gap-36 lg:mx-2">
+      <div className="flex max-lg:flex-col max-lg:gap-24 lg:gap-12 xl:gap-22 2xl:gap-32 lg:mx-2">
         <div className="max-w-[600px] max-md:mx-2">
           <p className="text-[20px] font-[600] uppercase">Customer Stories</p>
           <p className="text-[32px] font-[700] capitalize mt-2">What our partners said<span className="text-[#4BAC88]"> about us.</span></p>
@@ -26,7 +26,7 @@ function CustomerStories() {
           <img src={ImageOne} alt="" className="mt-[-150px] lg:min-h-[400px] lg:w-[200px]"/> 
         </div>
         <img src={ImageTwo} alt="" className="absolute bottom-0 left-0 ml-[-30px] -z-20"/>
-          <img src={ImageThree} alt="" className="absolute top-0 right-0 ml-[-20px] mt-[-80px] -z-20"/>
+          <img src={ImageThree} alt="" className="absolute top-0 right-0 ml-[-60px] mt-[-80px] -z-20"/>
         </div>
       </div>
     </div>

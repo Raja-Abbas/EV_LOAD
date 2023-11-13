@@ -16,7 +16,7 @@ body{
     background: rgb(243 244 246);
 }
 .HeroSection{
-    background: url(./images/28917959_7510723\ 1.svg);
+    background: url(./images/28917959_7510723\ 1.svg) !important;
     width: 100vw;
     height: 100vh;
     background-size: cover;
