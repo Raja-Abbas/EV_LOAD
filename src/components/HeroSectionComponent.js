@@ -46,7 +46,7 @@ function HeroSectionComponent() {
               className="absolute z-50 max-w-[360px] lg:left-[600px] xl:top-16 lg:top-24 xl:left-[700px] min-[1350px]:left-[750px] min-[1500px]:left-[850px] min-[1600px]:left-[1100px]"
             />
           </div>
-          <div className="green w-[65%] h-[351px] absolute right-0 z-[1] lg:left-[800px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1300px]">
+          <div className="green w-[38%] h-[351px] absolute right-0 z-[1] lg:left-[800px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1300px]">
             <div></div>
           </div>
         </div>

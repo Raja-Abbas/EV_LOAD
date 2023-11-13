@@ -11,7 +11,7 @@ function HeroSection() {
       <div className="container">
         <Navbar />
         <div className="container container-hero margin-left absolute">
-          <div className="max-w-[550px] mt-[-100px]">
+          <div className="max-w-[550px] lg:mt-[-100px]">
             <p className="font-bold mx-5 bottom-20 text-[#000000] font-[Montserrat,sans-serif] capitalize text-[34px]  text-left">
               Accelerate<span className="text-[#4BAC88]"> EV charging</span>
               <span className="bg-white px-6 py-1 block rounded-full mx-[-24px]">
