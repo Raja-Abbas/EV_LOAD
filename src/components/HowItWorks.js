@@ -28,12 +28,12 @@ function HowItWorks() {
           </div>
         </div>
         <div className="lg:flex gap-12 lg:pb-10 items-start">
-          <div className="flex lg:justify-end max-lg:ms-0 lg:ms-72 max-[1200px]:ms-[26rem] max-lg:justify-center lg:mt-10">
+          <div className="flex lg:justify-end max-lg:ms-0 lg:ms-72 max-[1200px]:ms-[26rem] xl:ms-[22rem] 2xl:ms-[42rem] max-lg:justify-center lg:mt-10">
             <p className="text-[#E7E7E7] text-[80px] leading-[70px] font-[700] max-lg:pb-6">
               02
             </p>
           </div>
-          <div className="max-lg:mx-28 max-md:mx-14 lg:min-w-[500px] max-h-[438px] bg-[#FFFFFF] rounded-[24px] flex flex-col justify-center px-7 py-10 border border-[#EAEAEA] relative">
+          <div className="max-lg:mx-28 max-md:mx-14 xl:max-w-[500px] lg:min-w-[500px] max-h-[438px] bg-[#FFFFFF] rounded-[24px] flex flex-col justify-center px-7 py-10 border border-[#EAEAEA] relative">
             <img src={Tick} alt="" className="absolute max-lg:top-10 lg:top-14 left-[-20px]"/>
             <p className="text-[20px] font-[700] leading-[36px] capitalize">
               Process the granular big data sources on

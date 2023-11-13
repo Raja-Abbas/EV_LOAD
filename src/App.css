@@ -202,6 +202,7 @@ body{
     background-size: cover;
     border-radius: 40px;
 }
+
 .black-other{
     padding: 31px 55px 31px 200px;
 }
@@ -211,6 +212,17 @@ body{
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     background-position: center;
+}
+@media(max-width:1000px){
+    .green{
+        border-radius: 40px;
+    }
+    .black-other{
+    padding:31px 31px 31px 55px;
+}
+.black{
+    padding:31px 31px 31px 55px;
+}
 }
 
 @media(min-width:1700px){

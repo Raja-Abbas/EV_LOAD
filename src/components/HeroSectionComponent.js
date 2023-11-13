@@ -8,9 +8,9 @@ import LineArrow from "./LineArrow";
 function HeroSectionComponent() {
   return (
     <div className="flex flex-col justify-center gap-0 HeroSectionComponents">
-      <div className="my-10 flex">
-        <div className="flex flex-row justify-center lg:mr-[250px] xl:mr-[240px] w-[100%] relative">
-          <div className="flex flex-col black xl:max-w-[700px] lg:max-w-[680px] z-10">
+      <div className="my-10 flex max-lg:flex-col">
+        <div className="flex lg:flex-row justify-center max-lg:mt-[100px] lg:mr-[250px] xl:mr-[240px] w-[100%] relative max-lg:flex-col">
+          <div className="flex flex-col max-lg:mt-44 max-lg:pt-32 black xl:max-w-[700px] lg:max-w-[680px] z-10">
             <p className="text-white text-[15px] font-[500] capitalize text-opacity-80">
               Electrical Load Study is a pivotal component for determining the
               remaining electrical capacity to install an EVSE
@@ -43,25 +43,25 @@ function HeroSectionComponent() {
             <img
               src={Image}
               alt=""
-              className="absolute z-50 max-w-[360px] lg:left-[600px] xl:top-16 lg:top-24 xl:left-[700px] min-[1350px]:left-[750px] min-[1500px]:left-[850px] min-[1600px]:left-[1100px]"
+              className="absolute max-lg:top-10 max-lg:left-0 max-lg:right-0 max-lg:mx-auto z-50 max-w-[360px] lg:left-[600px] xl:top-16 lg:top-24 xl:left-[700px] min-[1350px]:left-[750px] min-[1500px]:left-[850px] min-[1600px]:left-[1100px]"
             />
           </div>
-          <div className="green w-[38%] h-[351px] absolute right-0 z-[1] lg:left-[800px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1300px]">
+          <div className="green max-lg:w-full max-lg:h-[200px] max-lg:-top-32 lg:w-[38%] lg:h-[351px] absolute right-0 z-[1] lg:left-[800px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1300px]">
             <div></div>
           </div>
         </div>
       </div>
       <LineArrow />
-      <div className="mt-[-60px]">
-        <div className="flex justify-center w-[100%] relative">
-          <div className="green green-two w-[35%] h-[351px] absolute left-[-120px] z-[1] right-0 rotate-180 xl:right-[150px] min-[1350px]:right-[250px] min-[1500px]:right-[350px] min-[1600px]:right-[450px]">
+      <div className="lg:mt-[-60px] max-lg:mt-[100px]">
+        <div className="flex justify-center w-[100%] relative lg:flex-row max-lg:flex-col">
+          <div className="green green-two max-lg:w-full max-lg:h-[200px] max-lg:-top-24 lg:w-[35%] h-[351px] absolute lg:left-[-120px] z-[1] right-0 rotate-180 xl:right-[150px] min-[1350px]:right-[250px] min-[1500px]:right-[350px] min-[1600px]:right-[450px]">
             <div></div>
           </div>
-          <div className="flex flex-col black black-other xl:max-w-[700px] lg:max-w-[680px] z-10 lg:ml-[250px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1150px]">
+          <div className="flex flex-col black black-other xl:max-w-[700px] lg:max-w-[680px] z-10 lg:ml-[250px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1150px] max-lg:mt-52 max-lg:pt-32">
             <img
               src={ImageSecond}
               alt=""
-              className="absolute z-50 max-w-[360px] lg:left-[100px] top-16 xl:left-[200px] min-[1350px]:left-[250px] min-[1500px]:left-[300px] min-[1600px]:left-[550px]"
+              className="absolute z-50 max-w-[360px] lg:left-[100px] max-lg:top-[75px] lg:top-16 xl:left-[200px] min-[1350px]:left-[250px] min-[1500px]:left-[300px] min-[1600px]:left-[550px] max-lg:right-0 max-lg:left-0"
             />
             <p className="text-white text-[15px] font-[500] capitalize text-opacity-80">
               Benefits
