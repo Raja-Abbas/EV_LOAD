@@ -7,7 +7,7 @@ import Background from "../images/Vector 3.svg"
 import Arrow from "../images/Arrow - Right 2.svg"
 function HeroSection() {
   return (
-    <div className="HeroSection relative">
+    <div className="HeroSection two relative">
       <div className="container">
         <Navbar />
         <div className="container container-hero margin-left absolute">

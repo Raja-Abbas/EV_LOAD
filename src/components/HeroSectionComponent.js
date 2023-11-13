@@ -43,10 +43,10 @@ function HeroSectionComponent() {
             <img
               src={Image}
               alt=""
-              className="absolute max-lg:top-10 max-lg:left-0 max-lg:right-0 max-lg:mx-auto z-50 max-w-[360px] max-sm:px-2 lg:left-[600px] xl:top-16 lg:top-24 xl:left-[700px] min-[1350px]:left-[750px] min-[1500px]:left-[850px] min-[1600px]:left-[1100px]"
+              className="absolute max-lg:top-10 max-lg:left-0 max-lg:right-0 max-lg:mx-auto z-50 max-w-[360px] max-sm:px-4 lg:left-[600px] xl:top-16 lg:top-24 xl:left-[700px] min-[1350px]:left-[750px] min-[1500px]:left-[850px] min-[1600px]:left-[1100px]"
             />
           </div>
-          <div className="green max-lg:w-full max-lg:h-[200px] max-lg:-top-32 lg:w-[38%] lg:h-[351px] absolute right-0 z-[1] lg:left-[800px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1300px]">
+          <div className="green max-lg:w-full max-lg:h-[200px] max-lg:-top-32 lg:w-[38%] 2xl:w-[100%] lg:h-[351px] absolute right-0 z-[1] lg:left-[800px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1300px]">
             <div></div>
           </div>
         </div>
@@ -61,7 +61,7 @@ function HeroSectionComponent() {
             <img
               src={ImageSecond}
               alt=""
-              className="absolute z-50 max-w-[360px] lg:left-[100px] max-lg:top-[50px] max-lg:mx-auto lg:top-16 xl:left-[200px] min-[1350px]:left-[250px] min-[1500px]:left-[300px] min-[1600px]:left-[550px] max-lg:right-0 max-lg:left-0 max-sm:px-2"
+              className="absolute z-50 max-w-[360px] lg:left-[100px] max-lg:top-[50px] max-lg:mx-auto lg:top-16 xl:left-[200px] min-[1350px]:left-[250px] min-[1500px]:left-[300px] min-[1600px]:left-[550px] max-lg:right-0 max-lg:left-0 max-sm:px-4"
             />
             <p className="text-white text-[15px] font-[500] capitalize text-opacity-80">
               Benefits
