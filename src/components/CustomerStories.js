@@ -6,7 +6,7 @@ import ImageThree from "../images/ImageGreenLast.svg";
 function CustomerStories() {
   return (
     <div className="max-w-[1600px] mx-auto mt-20 mb-10 bg">
-      <div className="flex max-lg:flex-col max-lg:gap-24 lg:gap-12 xl:gap-22 2xl:gap-32 lg:mx-2">
+      <div className="flex max-lg:flex-col max-lg:gap-24 lg:gap-10 xl:gap-22 2xl:gap-32 lg:mx-2">
         <div className="max-w-[600px] max-md:mx-2">
           <p className="text-[20px] font-[600] uppercase">Customer Stories</p>
           <p className="text-[32px] font-[700] capitalize mt-2">What our partners said<span className="text-[#4BAC88]"> about us.</span></p>

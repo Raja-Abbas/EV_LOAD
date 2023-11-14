@@ -17,11 +17,12 @@ body{
 }
 .HeroSection{
     background: url(./images/28917959_7510723\ 1.svg) !important;
-    width: 100vw;
-    height: 100vh;
+    width: 100vw !important;
+    height: 100vh !important;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
 }
 
 .label {
@@ -50,7 +51,6 @@ body{
 }
 
 .box {
-    height: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -188,7 +188,7 @@ body{
         gap:100px;
     }
     .HeroSection{
-        height: 150vh;
+        height: 150vh !important;
         width: 100vw;
         background-size: cover;
     }
@@ -251,6 +251,7 @@ body{
     width: 100%;
 }
 .green-two{
+    width: 100%;
     left: -1300px;
 }
 }

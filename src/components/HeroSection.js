@@ -40,7 +40,7 @@ function HeroSection() {
             </div>
             </div>
           </div>
-          <div className="">
+          <div className="h-full">
             <img src={Background} alt='' className="absolute w-[200px] mx-[9%] mt-[-150px]"/>
             <img src={HeroImage} alt="" className=" relative w-[400px] z-50" />
           </div>
