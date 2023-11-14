@@ -10,7 +10,7 @@ function HeroSection() {
     <div className="HeroSection two relative">
       <div className="container">
         <Navbar />
-        <div className="container container-hero margin-left absolute">
+        <div className="container container-hero margin-left absolute min-[1360px]:bottom-60 2xl:bottom-80">
           <div className="max-w-[550px] lg:mt-[-100px]">
             <p className="font-bold mx-5 bottom-20 text-[#000000] font-[Montserrat,sans-serif] capitalize text-[34px]  text-left">
               Accelerate<span className="text-[#4BAC88]"> EV charging</span>
@@ -40,7 +40,7 @@ function HeroSection() {
             </div>
             </div>
           </div>
-          <div className="h-full">
+          <div className="">
             <img src={Background} alt='' className="absolute w-[200px] mx-[9%] mt-[-150px]"/>
             <img src={HeroImage} alt="" className=" relative w-[400px] z-50" />
           </div>

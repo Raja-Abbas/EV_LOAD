@@ -21,13 +21,9 @@ body{
     height: 100vh;
     background-size: cover;
     background-position: center;
-}
-.two{
-    background:  url(./images/Group\ 181.svg);
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
+
 .label {
     height: 40px;
     width: 163px;
