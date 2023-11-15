@@ -19,7 +19,7 @@ body{
     background: url(./images/28917959_7510723\ 1.svg) !important;
     width: 100vw !important;
     height: 100vh !important;
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;

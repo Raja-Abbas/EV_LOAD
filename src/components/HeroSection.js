@@ -10,7 +10,7 @@ function HeroSection() {
     <div className="HeroSection two relative">
       <div className="container">
         <Navbar />
-        <div className="container container-hero margin-left max-lg:mt-[130px] lg:absolute min-[1360px]:bottom-10 2xl:bottom-80">
+        <div className="container container-hero margin-left max-lg:mt-[130px] lg:absolute 2xl:bottom-28">
           <div className="max-w-[550px] lg:mt-[-100px]">
             <p className="font-bold mx-5 bottom-20 text-[#000000] font-[Montserrat,sans-serif] capitalize text-[34px]  text-left">
               Accelerate<span className="text-[#4BAC88]"> EV charging</span>
