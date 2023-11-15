@@ -18,7 +18,7 @@ body{
 .HeroSection{
     background: url(./images/28917959_7510723\ 1.svg) !important;
     width: 100vw !important;
-    min-height: 100vh !important;
+    height: 100vh !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -188,9 +188,9 @@ body{
         gap:100px;
     }
     .HeroSection{
-        height: 150vh !important;
+        height:fit-content !important;
         width: 100vw;
-        background-size: cover;
+        background-size: cover !important;
     }
     .slider{
         flex-wrap: wrap;
@@ -239,7 +239,10 @@ body{
         left: 0px;
     }
     .HeroSection{
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover !important;
     }
 }
 @media(min-width:2000px){
