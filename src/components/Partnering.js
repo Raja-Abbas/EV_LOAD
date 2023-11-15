@@ -17,7 +17,7 @@ function Partnering() {
           Partnering
         </p>
       </div>
-      <div className="xl:max-w-[1460px] mx-auto flex justify-center sm:gap-4 lg:gap-x-4 xl:gap-x-8 flex-wrap gap-y-32 mt-16">
+      <div className="xl:max-w-[1460px] mx-auto flex justify-center sm:gap-4 sm:gap-y-6 lg:gap-x-4 xl:gap-x-8 flex-wrap lg:gap-y-32 mt-16">
         <div className="flex flex-col max-w-[300px] min-w-[250px]">
           <img src={ImageOne} alt="" className="" loading="lazy" />
           <p className="text-[#000000] text-[24px] capitalize font-bold mt-4">
