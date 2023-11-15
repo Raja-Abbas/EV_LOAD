@@ -56,7 +56,7 @@ function HeroSectionComponent() {
       <LineArrow />
       <div className="lg:mt-[-60px] max-lg:mt-[100px]">
         <div className="flex justify-center w-[100%] relative lg:flex-row max-lg:flex-col">
-          <div className="green green-two max-lg:w-[100%] max-lg:h-[200px] max-lg:-top-24 lg:w-[35%] h-[351px] absolute lg:left-[-120px] z-[1] right-0 rotate-180 xl:right-[150px] min-[1350px]:right-[250px] min-[1600px]:w-[42%] min-[1600px]:right-[350px] min-[2000px]:w-[100%] min-[2000px]:left-[-1280px]">
+          <div className="green green-two max-lg:w-[100%] max-lg:h-[200px] max-lg:-top-24 lg:w-[35%] h-[351px] absolute lg:left-[-120px] z-[1] right-0 rotate-180 xl:right-[150px] min-[1350px]:right-[250px] min-[1600px]:w-[35%] min-[1600px]:right-[350px] min-[2000px]:w-[100%] min-[2000px]:left-[-1280px]">
             <div></div>
           </div>
           <div className="flex flex-col black black-other xl:max-w-[700px] lg:max-w-[680px] z-10 lg:ml-[250px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1150px] max-lg:mt-52 max-lg:pt-32">
