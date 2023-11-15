@@ -4,6 +4,7 @@ import Tick from "../images/tick-circle.svg";
 import Image from "../images/image first.svg";
 import ImageSecond from "../images/image 11.svg";
 import LineArrow from "./LineArrow";
+import Round from "../images/ROUND.svg"
 
 function HeroSectionComponent() {
   return (
@@ -45,6 +46,7 @@ function HeroSectionComponent() {
               alt=""
               className="absolute max-lg:top-10 max-lg:left-0 max-lg:right-0 max-lg:mx-auto z-50 max-w-[360px] max-sm:px-4 lg:left-[600px] xl:top-16 lg:top-24 xl:left-[700px] min-[1350px]:left-[750px] min-[1500px]:left-[850px] min-[1600px]:left-[1100px]"
             />
+            <img src={Round} alt="" className="absolute max-lg:hidden z-50 max-w-[360px] max-sm:px-4 lg:right-[-36px] xl:-bottom-8 lg:-bottom-8 xl:right-[96px] min-[1350px]:right-[138px] min-[1500px]:right-[212px] min-[1600px]:right-[462px]"/>
           </div>
           <div className="green max-lg:w-full max-lg:h-[200px] max-lg:-top-32 lg:w-[38%] 2xl:w-[100%] lg:h-[351px] absolute right-0 z-[1] lg:left-[800px] xl:left-[900px] min-[1350px]:left-[950px] min-[1500px]:left-[1050px] min-[1600px]:left-[1300px]">
             <div></div>
@@ -63,6 +65,7 @@ function HeroSectionComponent() {
               alt=""
               className="absolute z-50 max-w-[360px] lg:left-[100px] max-lg:top-[50px] max-lg:mx-auto lg:top-16 xl:left-[200px] min-[1350px]:left-[250px] min-[1500px]:left-[300px] min-[1600px]:left-[550px] max-lg:right-0 max-lg:left-0 max-sm:px-4"
             />
+             <img src={Round} alt="" className="absolute max-lg:hidden z-50 max-w-[360px] max-sm:px-4 lg:left-[224px] xl:top-14 lg:top-14 xl:left-[328px] min-[1350px]:left-[348px] min-[1500px]:left-[418px] min-[1600px]:left-[712px]"/>
             <p className="text-white text-[15px] font-[500] capitalize text-opacity-80">
               Benefits
             </p>

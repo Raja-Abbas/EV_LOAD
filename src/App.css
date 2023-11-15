@@ -253,8 +253,11 @@ body{
 .green{
     width: 100%;
 }
+.HeroSection{
+    width: 100vw !important;
+}
 .green-two{
     width: 100%;
-    left: -1300px;
+   left: -1300px;
 }
 }
