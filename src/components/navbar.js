@@ -34,7 +34,9 @@ function navbar() {
       </div>
       <div className="flex justify-end gap-2 items-center z-50 max-lg:hidden">
         <button className="btn">
-          <div className="text-wrapper">GET A REPORT</div>
+          <Link to="report" smooth={true} duration={500} className="text-wrapper cursor-pointer uppercase">
+              Get A report
+            </Link>
           <img
             src={IconlyLightArrow}
             className="iconly-light-arrow-right-2"
