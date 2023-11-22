@@ -9,7 +9,7 @@ import Footer from "./components/footer"
 
 export default function App() {
   return (
-    <div className='flex flex-col gap-10 justify-center'>
+    <div className='flex flex-col gap-10 justify-center max-md:px-1'>
       <HeroSection/>
       <Slider/>
       <HeroSectionComponent/>
