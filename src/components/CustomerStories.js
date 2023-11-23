@@ -23,7 +23,7 @@ function CustomerStories() {
           <p className="text-[12px] font-[400] text-[#B4B4B4]">Elisa Grant</p>
           <p className="text-[8px] font-[400] text-[#B4B4B4]">Legacy Solutions Engineer</p>
           </div>
-          <img src={ImageOne} alt="" className="mt-[-150px] lg:min-h-[400px] lg:w-[200px]"/> 
+          <img src={ImageOne} alt="" className="mt-[-150px] lg:min-h-[400px] max-md:w-[150px] max-md:mt-0 lg:w-[200px]"/> 
         </div>
         <img src={ImageTwo} alt="" className="absolute bottom-0 left-0 ml-[-30px] -z-20"/>
           <img src={ImageThree} alt="" className="absolute top-0 right-0 ml-[-60px] mt-[-80px] -z-20"/>
