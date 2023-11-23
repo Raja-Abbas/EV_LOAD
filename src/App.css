@@ -10,10 +10,12 @@ body,*{
 .App{
     margin: 0;
     overflow-x: hidden;
+    font-family: 'Montserrat',sans-serif !important;
 }
 body{
     overflow-x: hidden;
     background: rgb(243 244 246);
+    font-family: 'Montserrat',sans-serif !important;
 }
 .HeroSection{
     background: url(./images/28917959_7510723\ 1.svg) !important;
