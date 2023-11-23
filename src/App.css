@@ -233,11 +233,6 @@ body{
 .black{
     padding:31px 31px 31px 55px;
 }
-.btn-two-css{
-    display: block;
-    margin: auto;
-    width: 100%;
-}
 }
 
 @media(min-width:1700px){

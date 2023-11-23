@@ -46,7 +46,7 @@ export default function Navbar({ fixed }) {
                 <li className="cursor-pointer hover-link block">Contact</li>
             </ul>
             <div className="mt-4 z-50 mb-4 flex flex-col gap-4">
-        <button className="btn btn-two-css">
+        <button className="btn flex justify-center">
           <Link to="report" smooth={true} duration={500} className="text-wrapper cursor-pointer uppercase float-left text-center">
               Get A report
             </Link>
@@ -56,7 +56,7 @@ export default function Navbar({ fixed }) {
             alt=""
           />
         </button>
-        <button className="btn-two btn-two-css">
+        <button className="btn-two flex justify-center">
           <div className="log-in">LOG IN</div>
         </button>
       </div>
