@@ -6,7 +6,7 @@ import { Link } from "react-scroll"; // Import the Link component
 
 function navbar() {
   return (
-    <div className="py-5 flex justify-around items-center z-100">
+    <div className="py-5 flex justify-around items-center z-100 max-lg:hidden">
       <div className="label flex justify-start items-center">
         <img src={Image} alt="" className="iconly-light-arrow-right-2" />
         <p className="EV-load">

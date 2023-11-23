@@ -5,11 +5,15 @@ import Ca from "../images/CA.svg";
 import HeroImage from "../images/siemens-chargers-with-logo.svg";
 import Background from "../images/Vector 3.svg"
 import Arrow from "../images/Arrow - Right 2.svg"
+import ResponsiveNavbar from "./responsiveNavbar";
+
+
 function HeroSection() {
   return (
     <div className="HeroSection two relative">
       <div className="container">
         <Navbar />
+        <ResponsiveNavbar/>
         <div className="container container-hero margin-left max-lg:mt-[130px] lg:absolute 2xl:bottom-28">
           <div className="max-w-[550px] lg:mt-[-100px]">
             <p className="font-bold mx-5 bottom-20 text-[#000000] font-[Montserrat,sans-serif] capitalize text-[34px]  text-left">

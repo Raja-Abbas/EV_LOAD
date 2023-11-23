@@ -24,7 +24,11 @@ body{
     background-position: center;
     margin: 0 auto;
 }
-
+.responsiveNavbar{
+    background: url(./images/Frame.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .label {
     height: 40px;
     width: 163px;
@@ -228,6 +232,11 @@ body{
 }
 .black{
     padding:31px 31px 31px 55px;
+}
+.btn-two-css{
+    display: block;
+    margin: auto;
+    width: 100%;
 }
 }
 
