@@ -28,7 +28,7 @@ export default function Navbar({ fixed }) {
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center bg-white absolute w-full mx-0 mt-80 z-[10000] text-center transition-all" +
+              "lg:flex flex-grow items-center bg-white px-4 pe-10 mx-auto absolute w-full mt-80 z-[10000] text-center transition-all" +
               (navbarOpen ? "" : " hidden")
             }
             id="example-navbar-danger"
